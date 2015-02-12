@@ -15,13 +15,31 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+    You can run the git diff --staged command to see if there has been changes from the last commit 
+    to what is currently being staged.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+    Braches would be helpful in keeping your history organized when you want to go in a different direction from the original plan,
+    such as an experiment and do not want to affect the master branch, essentially very helpful in that regard.
+
 How do the diagrams help you visualize the branch structure?
+
+    The diagrams help you visualize the branch structure simply because it shows you what commits are reachable from the current
+    head.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
-What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
+    The result of merging two branches together is taking the parents of both branches and making them accessable by the child
+    branch, which is usually the master. It is represented in the diagram the way they did it because not all the parent nodes
+    of the previous branches were visible to the resulting child branch of the merge.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+    The pro for automatic merging is that you do not have to sort through the files and see was was the same since it already
+    does that, the con is that the automatic merging does not work if two files contain content that was changed from their
+    common ancestor. The pro for manual merging is that you know what is getting added to the master branch, the con is that it
+    would be very time consuming and you might miss some changes you did want to commit to the merged branch.
