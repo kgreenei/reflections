@@ -1,8 +1,17 @@
 What happens when you initialize a repository? Why do you need to do it?
 
+    When you initialize a repository a .git file is create that will contain hidden content with regards the
+    the repository's log, etc. You need to do this in order to create a repository that can later be saved and used
+    with version control.
+
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
+    Staging area is different from the working directory and the repository because it
+    only contains the files that will be committed as opposed to the working directory
+    and the repository which might have other files. This offers the ability to control
+    what gets committed.
+    
 How can you use the staging area to make sure you have one commit per logical
 change?
 
