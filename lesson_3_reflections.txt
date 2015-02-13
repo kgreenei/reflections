@@ -7,26 +7,37 @@ local?
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    You could be working on something that someone else might have committed in the
-    repository already, which might cause you to make changes to a particular file
-    unintentionally if it automatically pulled from the remote repository.
+	You could be working on something that someone else might have committed in the
+    	repository already, which might cause you to make changes to a particular file
+    	unintentionally if it automatically pulled from the remote repository.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+    	A fork is a Git Hub to Git Hub operation, a clone is a Git Hub to local
+	repository operation and branches are present in Git Hub and the local 
+	repository. You would use fork when you want to make a copy of a repository
+	without having to clone it to a local repository. You would use clone if you
+	would like to make a copy of a repository to a local repository.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
-
-    Fill in your answer here
+	
+	The benefit of having a local copy of the last known state of the remote
+	stored locally is that you can work with the most up to date state rather than
+	an older state, which can cause merge conflicts or being behind.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    	If I had to collaborate without using Git or GitHub I would use Dropbox since it 
+	has its own version control. What would be easier: interacting with the files. 
+	What would be harder: notify collaborators of changes.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    	When you want to introduce a change but do not want it to directly affect the master 
+	until someone else approves, or requests a pull. The benefit of this approach is that
+	it insures that what gets added to the master is what you and your collaborators 
+	really want.
